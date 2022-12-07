@@ -6,7 +6,7 @@ export default function Home() {
     <Layout>
       <>
       <h1>Home Page</h1>
-      <p>Welcome to the DevX Documentation site</p>
+      <p>Welcome to the documentation site</p>
       </>
     </Layout>
   )

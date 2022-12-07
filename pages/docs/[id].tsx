@@ -50,7 +50,7 @@ export default function DocPage({page} : DocPageProps) {
         <Layout>
           <>
           <h1>{page.title}</h1>
-          <p dangerouslySetInnerHTML={{ __html: page.contentHtml }}></p>
+          <div dangerouslySetInnerHTML={{ __html: page.contentHtml }}></div>
           </>
         </Layout>
       )

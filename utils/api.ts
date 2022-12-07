@@ -49,3 +49,17 @@ export async function getDocPage(id: number){
 
     return { ...page.attributes, id: page.id, contentHtml: pageHTML || DEFAULT_HTML };
 }
+
+
+
+
+export async function getPosts(){
+    const response = await fetch("https://jsonplaceholder.typicode.com/posts/", 
+        { method: 'GET'}).then(res => res.json());
+    
+
+    console.log('fetched posts =', response)
+    return response;
+}
+
+
