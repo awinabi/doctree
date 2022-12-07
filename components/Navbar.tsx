@@ -1,3 +1,5 @@
+import Link from 'next/link'
+
 interface NavLink {
   url: string,
   title: string
@@ -17,25 +19,26 @@ export default function Navbar() {
 
     <ul className="nav nav-pills flex-column mb-3 pb-3 border-bottom">
       <li>
-        <a href="/docs" className="nav-link link-dark">
+        <Link href="/docs" className="nav-link link-dark">
           Docs
-        </a>
+        </Link>
       </li>
     </ul>
 
 
     <ul className="nav nav-pills flex-column mb-auto">
       <li>
-        <a href="/todos" className="nav-link link-dark">
+        <Link href="/todos" className="nav-link link-dark">
           Todos (server)
-        </a>
+        </Link>
       </li>
+
       <li>
-        <a href="/posts" className="nav-link link-dark">
+        <Link href="/posts" className="nav-link link-dark">
           Posts (client)
-        </a>
+        </Link>
       </li>
-      </ul>
+    </ul>
   </div>
   )
 }

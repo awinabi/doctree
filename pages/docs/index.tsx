@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 import Layout from '../../components/Layout'
 import { getDocPages, getDocPage } from '../../utils/api'
 
@@ -41,9 +42,11 @@ export default function DocIndex({pages} : DocPageProps) {
                 <>
                 {pages.map(page => (
                 <li key={page.id}>
-                    <a href={`/docs/${page.id}`} className="text-primary text-underline">
+
+                  <Link href={`/docs/${page.id}`} className="text-primary text-underline">
                     {page.title}
-                    </a>
+                  </Link>
+
                 </li>
                 ))}
                 </>
