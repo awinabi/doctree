@@ -14,7 +14,7 @@ frontend:
       commands:
         - echo "TEST=1" >> .env.production
         - env | grep -e CMS_TOKEN -e CMS_BASE_URL -e FAUNA_KEY >> .env.production
-        - env | grep -e NEXT_PUBLIC_ >> .env.production
+        - env | grep -e "NEXT_PUBLIC_" >> .env.production
         - npm run build
   artifacts:
     baseDirectory: build
