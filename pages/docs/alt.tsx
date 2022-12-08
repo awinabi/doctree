@@ -26,16 +26,16 @@ interface DocPageParams {
 export async function getStaticProps({ params }: DocPageParams) {
     const pages = await getDocPages()
   
-    return { props: { pages }, revalidate: 30 }
+    return { props: { pages } }
   }
 
   
-export default function DocIndex({pages} : DocPageProps) {
+export default function AltDocIndex({pages} : DocPageProps) {
 
     return (
         <Layout>
           <>
-          <h1>Available Documents (with ISR)</h1>
+          <h1>Available Documents (no ISR)</h1>
           <div className="flex-shrink-0 py-3 " >
           <ul className="nav nav-pills flex-column mb-3 pb-3 ">
             { pages && pages.length > 0 ?

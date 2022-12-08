@@ -23,6 +23,11 @@ export default function Navbar() {
           Docs
         </Link>
       </li>
+      <li>
+        <Link href="/docs/alt" className="nav-link link-dark">
+          Docs (without ISR)
+        </Link>
+      </li>
     </ul>
 
 
