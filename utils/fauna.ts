@@ -23,6 +23,7 @@ export const getTodos = async () => {
     
     const res = await graphQLClient.request(query, { size: 20 })
     console.log('fauna res', res)
+    
     const { allTodos: { data }} = res
     return data
 

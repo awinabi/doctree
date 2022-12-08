@@ -1,15 +1,15 @@
 {
   "dev": {
     "awscloudformation": {
-      "AuthRoleName": "amplify-linktree-dev-160646-authRole",
-      "UnauthRoleArn": "arn:aws:iam::062007786339:role/amplify-linktree-dev-160646-unauthRole",
-      "AuthRoleArn": "arn:aws:iam::062007786339:role/amplify-linktree-dev-160646-authRole",
+      "AuthRoleName": "amplify-linktree2-dev-150623-authRole",
+      "UnauthRoleArn": "arn:aws:iam::062007786339:role/amplify-linktree2-dev-150623-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::062007786339:role/amplify-linktree2-dev-150623-authRole",
       "Region": "us-west-2",
-      "DeploymentBucketName": "amplify-linktree-dev-160646-deployment",
-      "UnauthRoleName": "amplify-linktree-dev-160646-unauthRole",
-      "StackName": "amplify-linktree-dev-160646",
-      "StackId": "arn:aws:cloudformation:us-west-2:062007786339:stack/amplify-linktree-dev-160646/0f488980-761b-11ed-b819-06745948fd91",
-      "AmplifyAppId": "d22tc62vlb7bsv"
+      "DeploymentBucketName": "amplify-linktree2-dev-150623-deployment",
+      "UnauthRoleName": "amplify-linktree2-dev-150623-unauthRole",
+      "StackName": "amplify-linktree2-dev-150623",
+      "StackId": "arn:aws:cloudformation:us-west-2:062007786339:stack/amplify-linktree2-dev-150623/c9f586a0-76db-11ed-8c98-063e70282555",
+      "AmplifyAppId": "d1x2z2at8m52ro"
     }
   }
 }
