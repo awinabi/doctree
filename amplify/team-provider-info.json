@@ -10,6 +10,11 @@
       "StackName": "amplify-linktree2-dev-150623",
       "StackId": "arn:aws:cloudformation:us-west-2:062007786339:stack/amplify-linktree2-dev-150623/c9f586a0-76db-11ed-8c98-063e70282555",
       "AmplifyAppId": "d1x2z2at8m52ro"
+    },
+    "categories": {
+      "auth": {
+        "linktree2cce6eed5": {}
+      }
     }
   }
 }
