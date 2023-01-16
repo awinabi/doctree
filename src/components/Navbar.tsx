@@ -53,6 +53,12 @@ export default function Navbar() {
                         Posts (client)
                     </Link>
                 </li>
+
+                <li>
+                    <Link href="/protect" className="nav-link link-dark">
+                        Protected Page (SSR)
+                    </Link>
+                </li>
             </ul>
 
             <ul className="nav nav-pills flex-column mb-auto mb-3 pb-3 border-bottom">
