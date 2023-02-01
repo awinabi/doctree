@@ -1,0 +1,23 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-doctree-dev-183136-authRole",
+      "UnauthRoleArn": "arn:aws:iam::062007786339:role/amplify-doctree-dev-183136-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::062007786339:role/amplify-doctree-dev-183136-authRole",
+      "Region": "us-west-2",
+      "DeploymentBucketName": "amplify-doctree-dev-183136-deployment",
+      "UnauthRoleName": "amplify-doctree-dev-183136-unauthRole",
+      "StackName": "amplify-doctree-dev-183136",
+      "StackId": "arn:aws:cloudformation:us-west-2:062007786339:stack/amplify-doctree-dev-183136/943ca740-9d79-11ed-9a54-066ec27bfb99",
+      "AmplifyAppId": "dse2hzhhmwbpb"
+    },
+    "categories": {
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "dse2hzhhmwbpb",
+          "type": "cicd"
+        }
+      }
+    }
+  }
+}
